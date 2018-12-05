@@ -1,0 +1,313 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.logo{
+	margin-left: 10%;
+	width: 190px;
+	background-color: #FFF;
+}
+.container2{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+}
+header{
+	background-color: #D5D8DA;
+
+}
+h1{
+	font-size: 100px;
+	margin-left: 10%;
+}
+.container3{
+	background-color: #D5D8DA;
+}
+
+.p{
+	display: inline-block;
+	color: #F03562;
+	font-size: 30px;
+}
+.flech{
+	width: 100px;
+}
+.flecha{
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 70%;
+}
+.empre {
+	margin-left: 20%;
+	display: inline-block;
+	color: #F03562;
+	font-size: 50px;
+
+}
+.p{
+	display: inline-block;
+	color: #F03562;
+	font-size: 50px;
+	margin-left: 70px;
+
+}
+.des{
+	display: inline-block;
+	color: #F03562;
+	font-size: 50px;
+	margin-left: 10px;
+}
+.tipos{
+	display: block;
+	margin-left: 50%;
+}
+.caja1, .caja2, .caja3{
+	background-color: #7F7E7E;
+	color: #FFF;
+	margin-right: 3%;
+	display: block;
+	float: left;
+	width: 300px;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+
+
+}
+.numero1, .numero2, .numero3{
+	float: left;
+	border-right: 1px solid white;
+	font-size: 110px;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+.numero1{
+	color: #72F92E;
+}
+.numero2{
+	color: #F68615;
+}
+.numero3{
+	color: #44B2B0;
+}
+.empre{
+	margin-left: 30%;
+}
+.caja{
+	margin-left: 45%;
+	display: block;
+}
+.letra{
+	float: left;
+	padding-top: 100px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 40px;
+
+}
+table{
+	position: relative;
+	left:-15% ;
+	text-align:left;
+	margin-left: 30%;
+ 	margin-top: 90px;
+ 	overflow: hidden;
+ 	width: 74%;
+}
+tr, td{
+	width: 340px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+	padding: 23px;
+	font-size: 35px;
+} 
+.st{
+	text-decoration:none; 
+	font-size: 35px;
+
+
+}
+.fila1{
+	text-align: left;
+	padding: 30px;
+}
+.boton{
+	text-decoration: none;
+	top: 125%;
+	left: 71%;
+	width: 300px;
+	height: 80px;
+	background: #E91E63;
+	overflow: hidden;
+	margin-left: 70%;
+	margin-top: 2%;
+	
+}
+.boton ul{
+	list-style: none;
+	background: #FF0040;
+	width: 315px;
+	height: 2000px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	
+	
+}
+
+.boton li a{
+	font-size: 45px;
+	text-decoration: none;
+	color: #FFF;
+}
+footer{
+	background: #0D0D0D;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 20px 20px;
+	border-top: 20px solid #F03562;
+	padding: 60px;
+	font-size: 50px;
+	margin-top: 5%;
+}
+.footer{
+		margin-left: 10%;
+
+}
+.img3{
+	width: 10%;
+}
+.a{
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 5px dotted;
+}
+strong{
+	font-size: 22px;
+}
+table tr td{
+	max-width: 100%;
+}
+@media only screen and (max-width: 2060px){
+	.tipos{
+		margin-left: 45%;
+		margin-right: 4%;
+		overflow: hidden;
+		clear: both;
+	}
+	.caja{
+		margin-left: 35%;
+		margin-right: 4%;
+		overflow: hidden;
+		clear: both;
+	}
+	.empre{
+		margin-left:35%; 
+		clear: both;
+	}
+}
+@media only screen and (max-width:1850px){
+	.tipos{
+	display: block;
+	margin-left: 42%;
+	clear: both;
+}
+	.caja1, .caja2, .caja3{
+	margin-right: 3%;
+	display: inline-block;
+	float: left;
+	width: 200px;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+.empre{
+	margin-left: 25%;
+	clear: both;
+}
+.numero1, .numero2, .numero3{
+	float: left;
+	border-right: 1px solid white;
+	font-size: 45px;
+	font-family: 'Fjalla One', sans-serif;
+	clear: both;
+
+}
+.letra{
+	clear: both;
+	padding: 0px;
+	font-size: 20px;
+}
+.caja{
+	margin-left: 40%; 
+}
+
+}
+@media only screen and (max-width:1450px){
+	
+	.caja1, .caja2, .caja3{
+	width: 150px;
+}
+
+}
+@media only screen and (max-width:1450px){
+	.caja1, .caja2, .caja3{
+	width: 120px;
+}
+}
+@media only screen  and (max-width: 800px) {
+		.container{
+		margin: 0 auto;
+		width: 100%;
+		overflow: hidden;
+		background: #E9EDF0; 
+		display: block;
+	}
+	.boton{
+		font-variant: small-caps;
+		clear: both;
+	}
+	.caja, .tipos{
+		clear: both;
+		margin-right: 10%;
+		margin-left: 20%;
+	}
+	table{
+		clear: both;
+		position: relative;
+		text-align:left;
+	 	overflow: hidden;
+	 	width: 74%;
+}
+	tr, td{
+		clear: both;
+		width: 340px;
+		text-align: center;
+		border-bottom: 1px solid gray;
+		padding: 0px;
+		font-size: 20px;
+	} 
+	.fila1, .st{
+		text-decoration:none; 
+		font-size: 20px;
+		padding: 10px;
+	}
+	.boton{
+		margin-left: 20%;
+		margin-right: 20%;
+		padding-right: 20px;
+	}
+}
+@media only screen and (max-width: ){
+	
+}
+
+
